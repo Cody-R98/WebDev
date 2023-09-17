@@ -107,7 +107,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 98.5%;
     background-color: rgba(0, 0, 0, 0.7); /* Adjust background opacity as needed */
     z-index: 1; /* Place it behind the image */
 }
@@ -145,9 +145,6 @@ nav {
     text-decoration: underline;
     color:#FF9124
 }
-
-
-
 
 .joinbtn {
 
