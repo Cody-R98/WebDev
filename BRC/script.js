@@ -24,3 +24,14 @@ link2.addEventListener('click', () => {
 link3.addEventListener('click', () => {
     scrollToElement('.column');
 });
+
+// Get all the dropdown buttons and dropdown contents
+const dropbtns = document.querySelectorAll(".dropbtn");
+const dropdownContents = document.querySelectorAll(".dropdown-content");
+
+// Add click event listeners to toggle dropdown visibility for each button
+dropbtns.forEach((btn, index) => {
+    btn.addEventListener("click", function () {
+        dropdownContents[index].classList.toggle("show");
+    });
+});
