@@ -144,6 +144,48 @@ nav {
     color:#FF9124
 }
 
+.dropbtn{
+    width: 10rem;
+    height: 2rem;
+    padding: 5px;
+    margin: 6px;
+    font-size: 15px;
+    background-color: #FF6633;
+    color:#e5e5e5;  
+    transition: opacity 0.3s ease; /* Add a smooth opacity transition */
+    opacity: 1;
+}
+#content1 {
+    display:none; 
+}
+#content1:active{
+    display:block;
+}
+#content2 {
+    display: none;
+}
+#content3 {
+    display: none;
+}
+#content4 {
+    display: none;
+}
+#content5 {
+    display: none;
+}
+#content6 {
+    display: none;
+}
+#content7 {
+    display: none;
+}
+#content8 {
+    display: none;
+}
+#content9 {
+    display: none;
+}
+
 .joinbtn {
 
         padding: 1rem 2rem;
