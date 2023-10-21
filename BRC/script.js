@@ -8,6 +8,7 @@ function scrollToElement(elementSelector, instance = 0) {
     }
 }
 
+// changes made 20/10/23 //
 const dropbtn1 = document.getElementById("dropbtn1");
 const content1 = document.getElementById("content1");
 const dropbtn2 = document.getElementById("dropbtn2");
