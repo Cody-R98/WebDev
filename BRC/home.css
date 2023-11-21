@@ -205,9 +205,8 @@ footer {
 
 .column {
     text-align: center;
-	display: block;
+	display: inline-block;
     margin: 0 7em; /* Add horizontal margin for spacing between columns */
-	
 }
 
 .column p {

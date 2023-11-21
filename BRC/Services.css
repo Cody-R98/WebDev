@@ -82,25 +82,25 @@ nav {
     transition: all 0.3s ease;
 }
 
-.aboutus {
+.Services {
     position: relative;
 }
 
-.aboutus-container {
+.Services-container {
     position: relative;
 }
 
-.aboutus-overlay {
+.Services-overlay {
     position: relative;
     display: inline-block;
 }
 
-.aboutus-IMG {
+.Services-IMG {
     max-width: 100%;
     opacity: 0.7; /* Adjust opacity as needed */
 }
 
-.aboutus-background {
+.Services-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -110,7 +110,7 @@ nav {
     z-index: 1; /* Place it behind the image */
 }
 
-.aboutus-text {
+.Services-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -126,12 +126,12 @@ nav {
     z-index: 2;
 }
 
-.aboutus-text h4 {
+.Services-text h4 {
     margin: 0;
     font-size: 3rem;
 }
 
-.aboutus-text a {
+.Services-text a {
     color: #FF6633;
     text-decoration: none;
     margin-top: 10px;
@@ -139,7 +139,7 @@ nav {
     padding: 1rem;
 }
 
-.aboutus-text a:hover {
+.Services-text a:hover {
     text-decoration: underline;
     color:#FF9124
 }
@@ -163,14 +163,7 @@ nav {
     background-color: #FF9124;
 }
 
-.card-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 5rem 2rem;
-    display:grid;
-    align-items: center;
-    gap: 2rem ;
-}
+
 
 .blur {
     position: absolute;
@@ -229,6 +222,83 @@ section .header {
     font-weight: 600;
 }
 
+.services-breakdown {
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color:#FF6633;
+    text-align: center;
+}
+
+.Service1 {
+    max-width: 50%;
+    margin: 3%;
+    padding: 20px;
+}
+.Service1 h1{
+    color: #FF9124;
+    text-align: left;
+
+}
+
+.Service1 p {
+    text-align: left;
+}
+
+.Service2 {
+    max-width: 50%;
+    margin-left: 50%;
+    padding: 20px;
+}
+.Service2 h1{
+    color: #FF9124;
+
+}
+
+.Service2 p {
+    text-align: right;
+   
+}
+
+.Service3 {
+    max-width: 50%;
+    margin: 3%;
+    padding: 20px;
+}
+.Service3 h1{
+    color: #FF9124;
+    text-align: left;
+
+}
+
+.Service3 p {
+    text-align: left;
+}
+
+.Service4 {
+    max-width: 50%;
+    margin-left: 50%;
+    padding: 20px;
+}
+.Service4 h1{
+    color: #FF9124;
+
+}
+
+.Service4 p {
+    text-align: right;
+   
+}
+
+.card-container {
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    align-items: center;
+    margin-top: -50%;
+}
+
+
 .features {
     margin-top: 4rem;
     display: grid;
@@ -236,56 +306,14 @@ section .header {
     gap: 2rem;
 }
 
-.features .card {
-    background-color: #27272a;
-    padding: 1rem;
-    border: 2px solid transparent;
-    border-radius: 15px;
-    transition: all 0.3s ease;
-}
-
-.features .card:hover {
-    background-color: #323232;
-    border-color: #E5e5e5;
-}
-
-.features .card span {
-    display: inline-block;
-    background-color: #FF9124;
-    padding: 2px 9px;
-    margin-bottom: 1rem;
-    font-size: 1.75rem;
-    color: #E5e5e5;
-    border-radius: 5px;
-}
-
-.features .card h4 {
-    margin-bottom: 0.5rem;
-    color: #E5e5e5;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.features .card p {
-    color: #ccc;
-    margin-bottom: 1rem;
-}
-
-.features .card a {
-    color: #E5e5e5;
-    transition: all 0.3s ease;
-}
-
-.features .card a:hover {
-    color: #FF9124;
-}
 .banner {
     padding-top: 3rem;
-    max-width: 100%;
+    max-width: 60%;
     max-height: 100%;
     overflow: hidden;
     position: relative;
     margin-bottom: 10px;
+    transform: translateX(40%);
 }
 
 .banner-container {
