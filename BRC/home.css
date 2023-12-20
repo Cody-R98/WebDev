@@ -86,8 +86,17 @@ nav {
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
+    
 }
 
+.content p {
+line-height: 1.5;
+letter-spacing: 3px;
+word-wrap: break-word;
+padding: 1px;   
+margin: 1px;
+
+}
 .blur {
     position: absolute;
     box-shadow: 0 0 1000px 50px #FF6633;
